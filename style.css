@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 80%;
+margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.header-links {
+    flex: 1; 
+    text-align: center; 
+}
+a {
+    text-decoration: none;
+}
+.header h1 {
+    color: #282A30;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 40px;
+font-weight: 900;
+line-height: 120%; /* 48px */
+letter-spacing: 1px;
+}
+.header-links a {
+    color: #282A30;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 19px;
+font-weight: 400;
+line-height: 120%; /* 22.8px */
+letter-spacing: 1px;
+margin: 0 40px ;
+}
+.header img {
+    margin: 0 30px;
+}
+button {
+    border: none;
+}
+#home {
+    padding-top: 190px;
+}
+.i1 {
+    position: relative;
+    bottom: 500px;
+    right: 135px;
+    width: 60%;
+    
+}
+.i2 {
+    position: relative;
+    bottom: 450px;
+    left: -120px;
+}
+.i3 {
+    position: relative;
+    bottom: 1100px;
+    right: -840px;
+}
+.i5 {
+    position: relative;
+    bottom: 1630px;
+    right: -550px;
+    z-index: -1;
+}
+.home h4 {
+    color: #F7515C;
+font-size: 20px;
+font-weight: 700;
+line-height: 0%; /* 0px */
+padding-bottom: 50px;
+}
+.home h1 {
+    color: #282A30;
+font-size: 49px;
+font-weight: 700;
+margin:  30px 0;
+}
+.b1 {
+    background: #F7515C;
+    color: #FFF;
+font-size: 19px;
+font-weight: 300;
+padding: 19px 35px;
+}
+
+.b2 {
+    background: transparent;
+    color: #282A30;
+font-size: 19px;
+font-weight: 300;
+margin-left: 50px;
+}
+
+#mine {
+    position: relative;
+    top: -1200px; /* Измените это значение по своему усмотрению, чтобы поднять div "mine" вверх */
+}
+
+.mine {
+    display: flex;
+}
+.m2 {
+    position: relative;
+  top: 640px;
+  left: 100px;
+    z-index: -1;
+}
+.m3 {
+    position: relative;
+  top: 700px;
+  left: -480px;
+    z-index: -1;
+}
+.m4 {
+    position: relative;
+ 
+   top: 800px;
+   right: 560px;
+}
+.h-1 {
+    color: #282A30;
+font-size: 60px;
+font-weight: 700;
+}
+.h-2 {
+font-size: 100px;
+font-weight: 700;
+    color: white;
+    font-family: Arial, sans-serif; /* Задайте желаемый шрифт */
+    text-shadow: 1px 0 0 black, -2px  0 black, 0 2px  black, 0 -2px 0 black; /* Создаем эффект просвечивания через тень */
+}
+.mine-right p {
+    color: rgba(40, 42, 48, 0.50);
+font-size: 22px;
+font-weight: 400;
+line-height: 50px;
+margin:  30px 0;
+}
+.mine-right {
+margin-left: 130px;
+margin-top: 70px;
+
+}
+.mine-right button {
+    color: #FFF;
+    background: #F7515C;
+    font-size: 22px;
+font-weight: 600;
+padding: 20px 45px;
+}
+#hero {
+    position: relative;
+    top: -900px; /* Измените это значение по своему усмотрению, чтобы поднять div "mine" вверх */
+}
+.h1 {
+    color: #000;
+font-size: 40px;
+font-weight: 600;
+}
+.h2 {
+        font-size: 100px;
+        font-weight: 700;
+            color: white;
+            text-shadow: 1px 0 0 black, -2px  0 black, 0 2px  black, 0 -2px 0 black; /* Создаем эффект просвечивания через тень */
+}
+.h-img1 {
+    display: block;
+    width: 1260px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h-img1 img {
+    max-width: 100%; /* Устанавливаем максимальную ширину изображения в соответствии с родительским блоком */
+    height: auto; /* Автоматическое соотношение сторон для изображения */
+}
+
+.bt1 {
+    background: rgba(247, 81, 92, 0.05);
+    color: #F7515C;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%; /* Устанавливаем радиус 50%, чтобы сделать кнопку круглой */
+    width: 50px; /* Установите желаемую ширину */
+    margin-top: -10px;
+    height: 50px; /* Установите желаемую высоту */
+
+}
+.block1 {
+    background: #FFF;
+box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.10);
+padding: 70px 100px;
+
+}
+.m {
+    margin-left: 25px;
+}
+.m5 {
+    position: relative;
+    left: 210px;
+    bottom: 310px;
+    z-index: 1;
+}
+.block2 {
+    background: #FFF;
+box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.10);
+padding: 60px 100px ;
+position: relative;
+top: -800px;
+right: -300px;  
+}
+
+
+.block3 {
+    background: #FFF;
+box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.10);
+padding: 70px 100px;
+position: relative;
+top: -140px;
+right: 90px;
+
+
+}
+.blocks h4 {
+    color: #282A30;
+font-size: 25px;
+font-weight: 700;
+}
+.blocks p {
+    color: rgba(40, 42, 48, 0.40);
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+
+}
+.blockbtn {
+    display: flex;
+}
+.block1 {
+    position: relative;
+   top: -600px;
+}
+.blocks {
+    display: flex; /* Устанавливаем контейнеру горизонтальное расположение */
+
+}
+#rot {
+    position: relative;
+    bottom: 1000px;
+}
+.imgrots {
+    display: flex;
+}
+.imgrots h2 {
+    color: #282A30;
+font-size:  35px;
+font-weight: 700;
+}
+.imgrots p {
+    color: rgba(40, 42, 48, 0.30);
+font-size: 26px;
+font-weight: 400;
+margin-top: 30px;
+}
+.pp {
+    text-align: center;
+}
+.mnb1 {
+ position: relative;
+ right: -1200px;
+ border-radius: 10px;
+border: 3px solid #282A30;
+padding: 17px 20px;
+background: #FFF;
+}
+.mnb2 {
+    position: relative;
+    right: -1230px;
+    border-radius: 10px;
+   border: 3px solid #282A30;
+   padding: 17px 20px;
+   background: #FFF;
+   }
+   .o1 {
+    color: #282A30;
+font-size: 40px;
+font-weight: 600;
+   }
+   .rot {
+    position: relative;
+    bottom: -60px;
+   }
+   .o2 {
+    font-size: 100px;
+font-weight: 700;
+    color: white;
+    font-family: Arial, sans-serif; /* Задайте желаемый шрифт */
+    text-shadow: 1px 0 0 black, -2px  0 black, 0 2px  black, 0 -2px 0 black; /* Создаем эффект просвечивания через тень */
+
+   }
+   .l1 {
+    font-size: 100px;
+font-weight: 700;
+    color: white;
+    font-family: Arial, sans-serif; /* Задайте желаемый шрифт */
+    text-shadow: 1px 0 0 black, -2px  0 black, 0 2px  black, 0 -2px 0 black; /* Создаем эффект просвечивания через тень */
+
+   }
+   .l2 {
+    color: #282A30;
+font-size: 100px;
+font-weight: 700;
+   }
+#let {
+    position: relative;
+    bottom: 700px;
+}
+.lets {
+    display: flex;
+    align-items: center;
+}
+.let button {
+    background: #F7515C;
+    color: #FFEDED;
+font-size: 26px;
+font-weight: 400;
+padding: 20px 60px;
+margin-top: 37px;
+}
+.limg {
+position: relative;
+right: -300px;
+}
+.limg2 {
+    position: relative;
+    z-index: -1;
+    top: 170px;
+    right: 110px;
+}
+.line {
+    border: none;
+    border-top: 2px solid #282A30; /* Цвет и стиль линии: черная сплошная линия */
+    margin: 10px 0; /* Отступы сверху и снизу линии */
+  }
+#line {
+    position: relative;
+bottom: 560px;
+}
+
+.footer2 {
+    margin-right: 60px;
+}
+.footer3 {
+    margin-left:  190px;
+}
+.footer4 {
+    margin-left:  190px;
+}
+.footer5 {
+    margin-left:  190px;
+}
+.footer1 {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%; /* Возможно, вам нужно увеличить ширину, чтобы изображения были видимыми */
+}
+.footer {
+    display: flex;
+}
+.footer h4 {
+    color: #282A30;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 26px;
+font-weight: 600;
+line-height: 120%; /* 31.2px */
+letter-spacing: 1px;
+margin-top  : 20px;
+}
+.footer p {
+    color: rgba(40, 42, 48, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 18px;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+letter-spacing: 1px;
+margin:  30px 0;
+}
+#footer {
+    position: relative;
+    bottom: 500px;
+}
